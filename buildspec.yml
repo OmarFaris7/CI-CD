@@ -13,5 +13,5 @@ phases:
       - terraform init
   build:
     commands:
-      - cd CI-CD/terraform_code.tf
+      - terraform init
       - terraform apply -auto-approve
